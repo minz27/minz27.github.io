@@ -2253,7 +2253,7 @@
 			body {
 				background-color: #203936;
 				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
-				background-repeat: repeat, no-repeat;
+				background-repeat: repeat, repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
 				background-attachment: scroll, scroll;
