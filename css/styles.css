@@ -11,8 +11,9 @@ nav{
 }
 
 .navbar.compressed {
-    padding-top: .5px;
-    padding-bottom: .5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 80px;
 }
 
 .jumbotron {
