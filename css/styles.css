@@ -1,0 +1,111 @@
+header h1{
+    font-size: 2.5em;
+}
+
+nav{
+    box-shadow: 0 1px 5px #333;
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.marketing {
+    text-align: center;
+    background: rgb(243, 235, 240);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+.social-links img:hover{
+    background-color: rgb(129, 127, 127);
+}
+.parallax-container-first {
+    margin-top:90px;
+    background-image: url("../img/parallax_image_1.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-container-second {
+    background-image: url("../img/parallax_image_2.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-container-third {
+    background-image: url("../img/parallax_image_3.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card img{
+    padding: 10px;
+}
+
+#packages {
+    margin-top: 30px;
+}
+
+.carousel-inner img{
+    height: 500px;
+}
+#payment_cards{
+    width: 100px;
+    height: 100px;
+}
+#payment_paypal{
+    width: 100px;
+    height: 100px;
+}
+#payment_paytm{
+    width: 100px;
+    height: 100px;
+}
+#payment_upi{
+    width: 150px;
+    height: 100px;
+}
+
+#packages_carousel{
+    text-shadow: 0 2px 2px rgb(75, 72, 72);
+}
+#contactForm form {
+    padding: 20px;
+}
+#contactForm button {
+    margin-top: 10px;
+}
+footer {
+    padding: 30px;
+    background-color: #333;
+}
+footer a{
+    color: whitesmoke;
+}
+footer p{
+    color: rgb(241, 232, 219);
+}
+footer li{
+    list-style: none;
+    text-align: left;
+}
+#copyright{
+    margin-top: 20px;
+}
+/*Media queries*/
+@media(max-width: 768px){
+    .jumbotron h1{
+        font-size: 2em;
+    }
+    .jumbotron p{
+        font-size: 15px;
+    }
+}
