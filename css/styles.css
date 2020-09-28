@@ -1,131 +1,185 @@
 html {
     scroll-behavior: smooth;
 }
-header h1{
-    font-size: 2.5em;
+body {
+    background-color: beige;
 }
-
-nav{
-    box-shadow: 0 1px 5px #333;
+nav {
+    box-shadow: 0 2px 3px rgb(95, 94, 94);
     transition: all 0.3s;
+    font-size: 1.2em;
 }
-
 .navbar.compressed {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    font-size: 1em;
     /*height: 80px;*/
 }
-
-.jumbotron {
-    margin-bottom: 0;
+.titleHeader{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-.marketing {
+.titleHeader h1{
+    margin-top: 200px;
+}
+.parallax h5 {
+color: white;
+top: 300px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+padding-bottom: 38px;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-tap-highlight-colour: rgba(0, 0, 0, 0);
+-webkit-font-smoothing: antialiased;
+-webkit-box-direction: normal;
+}
+
+#name:after,
+#name:before {
+content: '';
+width: 50px;
+height: 2px;
+background: black;
+margin: 0 10px;
+}
+.parallax{
+    margin-top: 80px; 
+    background-image: url("../img/landing_image.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
     text-align: center;
-    background: rgb(243, 235, 240);
 }
-
-.social-links {
-    margin-top: 20px;
+.jumbotron {
+    background-color: rgb(223, 228, 233);
 }
-.social-links img:hover{
-    background-color: rgb(129, 127, 127);
+hr{
+    width: 600px;
 }
-.parallax-container-first {
-    margin-top:80px;
-    background-image: url("../img/parallax_image_1.jpg");
-    height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-container-second {
-    background-image: url("../img/parallax_image_2.jpg");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-container-third {
-    background-image: url("../img/parallax_image_3.jpg");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card img{
-    padding: 10px;
-}
-
-#packages {
+#profilePhotoDiv {
+    text-align: center;
     margin-top: 30px;
 }
-
-.carousel-inner img{
-    height: 500px;
+#musicPhotoDiv {
+    text-align: center;
 }
-#payment_cards{
-    width: 100px;
-    height: 100px;
+#profileQuote {
+    font-size: 1.5em;
+    color: rgb(99, 94, 94);
+    padding-top: 20px;
 }
-#payment_paypal{
-    width: 100px;
-    height: 100px;
-}
-#payment_paytm{
-    width: 100px;
-    height: 100px;
-}
-#payment_upi{
-    width: 150px;
-    height: 100px;
-}
-
-#packages_carousel{
-    text-shadow: 0 2px 2px rgb(75, 72, 72);
-}
-#contactForm form {
+#work blockquote{
     padding: 20px;
 }
-#contactForm button {
-    margin-top: 10px;
+.competency-list{
+    margin-left: -25px; 
+}
+.competency-list li{
+    font-size: 1.4em;
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+}
+
+/* .work-images {
+    text-align: center;
+} */
+#work{
+    text-align: center; 
+}
+#work img {
+    margin-bottom: 10px;
+    width: 12rem;
+}
+#music {
+    text-align: center;
+}
+#music img {
+    margin-bottom: 10px;
+    width: 12rem;
+}
+.music-images{
+    transition: transform .2s;
+}
+.music-images:hover {
+    transform: scale(1.1);
+}
+#my_background img {
+    margin-bottom: 20px;
+    width: 12rem;
+}
+#my_background {
+    text-align: center;
+}
+.image_break {
+    width: 300px;
+}
+#hobbies img{
+    width: 20rem;
 }
 footer {
+    margin-top: 40px;
     padding: 30px;
     background-color: #333;
-}
-footer a{
-    color: whitesmoke;
-}
-footer p{
-    color: rgb(241, 232, 219);
-}
-footer li{
-    list-style: none;
-    text-align: left;
 }
 #copyright{
     margin-top: 20px;
 }
-/*Media queries*/
+
+.social-links{
+    transition: transform .2s;
+    margin-top: 20px;
+}
+.social-links img{
+    width: 2rem;
+}
+.social-links img:hover{
+    transform: scale(1.3);
+}
+/*Media*/
 @media(max-width: 768px){
-    .jumbotron h1{
-        font-size: 2em;
+    .titleHeader h1{
+        font-size: 3em;
     }
-    .jumbotron p{
-        font-size: 15px;
+    hr {
+        width: 200px;
+    }
+    #work img {
+        width: 10rem;
+    }
+
+    #music img {
+        width: 10rem;
+    }
+    #my_background img {
+        width: 10rem;
+    }
+    .competency-list li{
+        font-size: 1em;
+    }
+    #name {
+        font-size: 1.7em;
+    }
+    #my_background h2{
+        font-size: 1.7em;
+    }
+    #my_background h4{
+        font-size: 1.3em;
     }
 }
-
 @media(max-width: 600px){
-    header h1 {
-        font-size: 2em;
-    }
-    footer {
-        font-size: 14px;
+    .social-links img{
+        width: 1rem;
     }
 }
