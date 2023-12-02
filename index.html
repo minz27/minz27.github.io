@@ -53,11 +53,11 @@
         <section id="profile" class="jumbotron jumbotron-fluid jumbotron-main">
             <h2 class="text-center" id="name">MREENAV S DEKA</h2>
             <hr>
-            <p class="text-center lead">GRAD STUDENT | MACHINE LEARNING ENGINEER | PART-TIME MUSICIAN</p>
+            <p class="text-center lead">COMPUTER VISION | MACHINE LEARNING ENGINEER | PART-TIME MUSICIAN</p>
             <div id="profilePhotoDiv">
-                <img src="img/profile_photo.png" class="rounded-circle" alt="MreenavDeka's photo">
+                <img src="img/pro_photo.jpg" class="rounded-circle" alt="MreenavDeka's photo" width="25%">
             </div>    
-            <p class="text-center" id="profileQuote">I build solutions and compose music.</p>
+            <!-- <p class="text-center" id="profileQuote">Computer Vision and Machine Learning</p> -->
         </section>
         <!--End profile-->
 
@@ -69,19 +69,46 @@
                 <strong class="font-weight-bold">exploring new technologies.</strong></blockquote>
             
             <section class="competencies text-center">
-                <h5><u>GOAL</u></h5>
-                <blockquote class="lead text-center">To contribute to <strong class="font-weight-bold">ethical</strong> technology that solves important <strong class="font-weight-bold">humanitarian</strong> issues</blockquote>
-                <h5><u>KEY COMPETENCIES</u></h5> 
+                <!-- <h5><u>GOAL</u></h5> -->
+                <!-- <blockquote class="lead text-center">To send software that I have contributed in to space someday. Also to build my own video game from scratch. -->
+                <!-- <h5><u>KEY COMPETENCIES</u></h5>  -->
                 <br>
                 <ul class = "competency-list">
                     <li class="font-weight-bold">computer vision</li>
-                    <li class="font-weight-bold">deep learning with tensorflow</li>
-                    <li class="font-weight-bold">development with springboot, flutter</li>
+                    <li class="font-weight-bold">machine learning</li>
+                    <li class="font-weight-bold">neural scene representations</li>
+                    <li class="font-weight-bold">object detection</li>
                 </ul>
                 <hr>
             </section>    
             <br>
             <br>
+            <div class="row">
+                <div class="col-md-4 col-12 offset-md-2 work-images">
+                    <img src="img/work_iis.svg" alt="fraunhofer iis">
+                </div>
+                <div class="col-md-4 col-12">
+                    <h5 class="text-md-left">RESEARCH ASSISTANT</h5>
+                    <h6 class="text-muted text-md-left">Jul 2023-Present</h6>
+                    <p class="text-md-left">Researching on applying domain adaption to object detection models. My responsibilities include
+                        reviewing literature, implementing papers, benchmarking models, and presenting results. 
+                    </p>
+                </div>
+            </div>
+            <hr class="image_break">
+            <div class="row">
+                <div class="col-md-4 col-12 offset-md-2 work-images">
+                    <img src="img/work_motius.svg" alt="motius">
+                </div>
+                <div class="col-md-4 col-12">
+                    <h5 class="text-md-left">TECH SPECIALIST 1 - MACHINE LEARNING ENGINEER</h5>
+                    <h6 class="text-muted text-md-left">Nov 2022-Mar 2023</h6>
+                    <p class="text-md-left">Developed multiple machine learning pipelines from scratch. Researched on densely placed small object detection (around 5000
+                        detections per image) and achieved a mAP of 90%. Deployed solution using Gradio. Implemented pipelines for object classification and auto-labelling.
+                    </p>
+                </div>
+            </div>
+            <hr class="image_break">
             <div class="row">
                 <div class="col-md-4 col-12 offset-md-2 work-images">
                     <img src="img/work_cgi.png" alt="cgi">
@@ -114,41 +141,32 @@
         <br><br><br>
         <!--Begin Projects-->
         <section class="container" id="work">
-            <h3 class="text-center">PROJECTS</h3>
+            <h3 class="text-center">RESEARCH WORK</h3>
             <hr>
             <div class="row">
-                <div class="col-md-4 col-12 offset-md-2 work-images">
-                    <img src="img/apple_disease.png" alt="Categorizing and Visualizing Foliar Diseases in Apple Trees">
+                <div class="col-md-4 col-12 offset-md-2 music-images">
+                    <img src="img/j-cratos.png" alt="Erasing the Ephemeral: Joint Camera Refinement and Transient Object Removal for Street View Synthesis">
                 </div>
                 <div class="col-md-4 col-12">
-                    <h5 class="text-md-left">Categorizing and Visualizing Foliar Diseases in Apple Trees</h5>
-                    <h6 class="text-muted text-md-left">Apr 2021 - Jun 2021</h6>
-                    <p class="text-md-left">I used transfer learning with an EfficientNet-B7 pre-loaded with the noisy student weights as the base network, a GlobalAveragePooling layer, and a Dense layer with softmax activation. I trained the network over a dataset provided by Kaggle as part of its Plant Pathology 2021 challenge and placed in the top 25% for my solution. Moreover, I used integrated gradients and intermediate convolutions to provide a visual aid to understand how the Convolutional Neural Network makes predictions.</p>
-                    <p class="text-md-left text-muted"><a href="https://www.kaggle.com/mreenav/interpreting-cnns-plant-pathology-2021" target="">Kaggle</a></p>
+                    <h5 class="text-md-left">Joint Camera Refinement and Transient Object Removal for Street View Synthesis</h5>
+                    <h6 class="text-muted text-md-left">Arxiv 2023</h6>
+                    <h6 class="text-md-left">Mreenav Shyam Deka*, Lu Sang*, Daniel Cremers</h6>
+                    <p class="text-md-left">Our method generates high-fidelity street view imagery while autonomously managing dynamic moving objects, eliminating the need for manual annotations. Additionally, we simultaneously refine the initial camera poses to enhance the quality of the renderings.</p>
+                    <p class="text-md-left text-muted"><a href="https://sangluisme.github.io/publications/street_view/" target="">Project Page</a></p>
+                    <p class="text-md-left text-muted"><a href="https://arxiv.org/abs/2311.17634" target="">Paper</a></p>
                 </div>
             </div>
             <hr class="image_break">
             <div class="row">
-                <div class="col-md-4 col-12 offset-md-2 work-images">
-                    <img src="img/projects_wysser.png" alt="Wysser">
+                <div class="col-md-4 col-12 offset-md-2 music-images">
+                    <img src="img/CAD.PNG" alt="Weakly Supervised CAD Retrieval from a Single RGB Image">
                 </div>
                 <div class="col-md-4 col-12">
-                    <h5 class="text-md-left">Wysser</h5>
-                    <h6 class="text-muted text-md-left">Nov 2019 - Dec 2019</h6>
-                    <p class="text-md-left">Wysser is an end-to-end platform that connects vehicle leasers and small startups.</p>
-                    <p class="text-md-left text-muted"><a href="https://github.com/minz27/Wysser" target="">Github</a></p>
-                </div>
-            </div>
-            <hr class="image_break">
-            <div class="row">
-                <div class="col-md-4 col-12 offset-md-2 work-images">
-                    <img src="img/image_hashing.PNG" alt="Image Hashing">
-                </div>
-                <div class="col-md-4 col-12">
-                    <h5 class="text-md-left">Perceptual Image Hashing System using Local Binary Pattern Histogram Fourier</h5>
-                    <h6 class="text-muted text-md-left">Jul 2018 – May 2019</h6>
-                    <p class="text-md-left">Developed a robust and secure perceptual image hashing scheme using LBP-HF features. The proposed system improves robustness to content preserving attacks such as rotation with cropping and outperforms some state of the art algorithms.</p>
-                    <p class="text-md-left text-muted">Paper under review</p>
+                    <h5 class="text-md-left">Weakly Supervised CAD Retrieval from a Single RGB Image</h5>
+                    <h6 class="text-muted text-md-left">2023</h6>
+                    <h6 class="text-md-left">Mreenav Shyam Deka, Angela Dai</h6>
+                    <p class="text-md-left">I developed a weakly supervised method that uses a perceptual loss function to create an embedding space between RGB images and CAD meshes. By detecting objects in an image, we can retrieve the corresponding CAD object to represent the scene.</p>
+                    <p class="text-md-left text-muted"><a href="#" target="">Report</a></p>
                 </div>
             </div>
             <hr class="image_break">
@@ -222,18 +240,6 @@
                 <hr class="image_break">
                 <div class="row">
                     <div class="col-md-4 col-12 offset-md-2 background-images">
-                        <img src="img/logo_imperial.png" alt="Imperial College London">
-                    </div>
-                    <div class="col-md-4 col-12">
-                        <h5 class="text-md-left">Imperial College London via Coursera</h5>
-                        <h6 class="text-muted text-md-left">May 2020</h6>
-                        <p class="text-md-left">Three course specialization on the Mathematics for machine learning algorithms.
-                        </p>
-                    </div>
-                </div>
-                <hr class="image_break">
-                <div class="row">
-                    <div class="col-md-4 col-12 offset-md-2 background-images">
                         <img src="img/background_niit.png" alt="NIIT Stackroute">
                     </div>
                     <div class="col-md-4 col-12">
@@ -256,21 +262,6 @@
                     </div>
                 </div>
                 <hr class="image-break">
-                <h4 class="text-center">HOBBIES</h4>
-                <div class="row" id="hobbies">
-                    <div class="col-md-4 col-12">
-                        <img src="img/hobby_painting.jpg" alt="painting">
-                        <h5>Painting and Sketching</h5>
-                    </div>
-                    <div class="col-md-4 col-12">
-                        <img src="img/hobby_travel.jpg" alt="travel">
-                        <h5>Travelling</h5>
-                    </div>
-                    <div class="col-md-4 col-12">
-                        <img src="img/hobby_books.jpg" alt="reading">
-                        <h5>Reading</h5>
-                    </div>
-                </div>
         </section><!--end of background-->
     </main>
     <footer>
@@ -291,7 +282,7 @@
         </div>
         <div class="row" id="copyright"> 
         <div class="col-12">
-            <p class="text-center text-muted"> Mreenav S Deka &copy; 2021</p>
+            <p class="text-center text-muted"> Mreenav S Deka &copy; 2023</p>
         </div>
         </div>
     </div>
